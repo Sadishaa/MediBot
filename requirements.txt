@@ -1,0 +1,37 @@
+-i https://pypi.org/simple
+
+# Core
+
+numpy>=1.26,<2.3
+pandas>=2.2
+scikit-learn>=1.4
+scipy>=1.11
+
+# LLM + LangChain
+
+langchain>=0.3
+langchain-community>=0.3
+langchain-core>=0.3
+langchain-groq>=0.3
+langchain-huggingface>=0.3
+
+# Embeddings
+
+sentence-transformers>=2.7
+transformers>=4.40
+torch>=2.2
+
+# Vector DB (replace faiss)
+
+chromadb>=0.5
+
+# App
+
+streamlit>=1.30
+
+# Utilities
+
+pydantic>=2.7
+python-dotenv>=1.0
+requests>=2.31
+tqdm>=4.66
